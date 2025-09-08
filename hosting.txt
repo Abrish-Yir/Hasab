@@ -1,0 +1,40 @@
+I highly recommend using a service called Netlify. It's extremely user-friendly, reliable, and the process is fast.
+Here is a step-by-step guide to get your site live.
+The 3-Step Plan
+Put your code on GitHub: A free service for storing and managing code.
+Create a free Netlify account: The service that will host your site.
+Connect Netlify to your GitHub project: This tells Netlify where to find your code and publish it.
+Step 1: Upload Your Project to GitHub
+If you're not familiar with git commands, the easiest way is to use the GitHub website directly.
+Sign up: Create a free account at github.com.
+Create a New Repository:
+On your GitHub dashboard, click the "+" icon in the top right and select "New repository".
+Give it a name (e.g., my-nonprofit-site).
+Choose "Public".
+You can skip all the other options (like adding a README).
+Click "Create repository".
+Upload Your Files:
+On your new repository page, you'll see a section that says "...or upload an existing file." Click on the "upload an existing file" link.
+Drag and drop all of your project files and folders (index.html, App.tsx, components/, etc.) into the browser window.
+Wait for them to upload, then scroll to the bottom and click "Commit changes".
+Your code is now stored on GitHub!
+Step 2: Deploy Your Site with Netlify
+Now we'll tell Netlify to take that code from GitHub and put it online.
+Sign up: Go to netlify.com and click "Sign up". The easiest way is to "Sign up with GitHub". This will automatically and securely link your accounts.
+Import Your Project:
+Once you're logged into your Netlify dashboard, click "Add new site" and choose "Import an existing project".
+Click on the "GitHub" button.
+Netlify will show you a list of your GitHub repositories. Find the one you just created (my-nonprofit-site) and select it.
+Configure Your Site's Settings:
+This is the most important part, but for your specific project, it's very simple. Netlify will ask you for "build settings." Because your project doesn't need a complex build step, you'll use these settings:
+Build command: Leave this field completely blank.
+Publish directory: Leave this field blank as well. Netlify is smart enough to find your index.html in the main directory.
+That's it for the settings!
+Deploy:
+Click the "Deploy site" button.
+Netlify will now take a minute to deploy your website. You'll see a "Deploy in progress" message. When it's done, it will say "Published".
+Step 3: Visit Your Live Site!
+Congratulations! Your site is now live on the internet.
+Netlify will give you a free, random URL like https://some-random-name.netlify.app. You can find this link at the top of your site's dashboard in Netlify.
+You can easily change this random name to something more memorable for free. In your site's settings on Netlify, go to "Domain management" -> "Options" -> "Edit site name".
+From now on, whenever you push any changes to your code on GitHub, Netlify will automatically see them and redeploy your website with the updates
